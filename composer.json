@@ -1,0 +1,13 @@
+{
+    "name": "allsoftwaretech/allgraphql",
+    "description": "GraphQL reference implenentation for PHP",
+    "license": "LGPLv3",
+    "authors": [
+        {
+            "name": "All Software",
+            "email": "contact@allsoftware.tech"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
