@@ -1,7 +1,7 @@
 {
     "name": "allsoftwaretech/allgraphql",
     "description": "GraphQL reference implenentation for PHP",
-    "license": "LGPLv3",
+    "license": "GPL-3.0-only",
     "authors": [
         {
             "name": "All Software",
@@ -9,5 +9,14 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "php": "^7.1"
+    },
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "AllGraphQL\\": "src/"
+        }
+    }
+    
 }
